@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP TASK3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        li {
+            display: inline;
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #outer {
+            width: 100%;
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        .display-part{
+            line-height: 0.8;
+        }
+        .footer-info{
+            line-height: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row bg-light py-3">
+        <h5 class="col-8 ">Company Name</h5>
+        <ul class="col-4">
+            <li class="px-2"><a class="text-dark" href="#">Features</a></li>
+            <li class="px-2"><a class="text-dark" href="#">Enterprise</a></li>
+            <li class="px-2"><a class="text-dark" href="#">support</a></li>
+            <li class="px-2"><a class="text-dark" href="#">pricing</a></li>
+            <li><button class="btn btn-outline-primary ms-4"> Signup</button></li>
+        </ul>
+    </div>
+    <div id="outer">
+        <div class="mx-auto">
+            <p class="display-6 text-center">Pricing</p>
+            <p class="text-center px-4">Quickly build an effective pricing tavle for your potential customers with this
+                Bootstrap example. It's built with default Bootstrap components and utilities with little customization
+            </p>
+        </div>
+        <div class="row">
+            <div class="card col-lg-4 pb-3">
+                <h5 class="card-header text-center bg-light">Free</h5>
+                <div class="display-part mx-auto">
+                    <p class="display-5 text-center"> $0<span class="text-secondary"> /mo</span> </p>
+                    <p class="text-center">10 users included</p>
+                    <p class="text-center">2GB of storage</p>
+                    <p class="text-center">Email support</p>
+                    <p class="text-center">Help center access</p>
+                    <button class="btn btn-outline-primary px-5">Sign up for free</button>    
+                </div>
+            </div>
+            <div class="card col-lg-4 pb-3">
+                <h5 class="card-header text-center bg-light">Pro</h5>
+                <div class="display-part mx-auto">
+                    <p class="display-5 text-center"> $15<span class="text-secondary"> /mo</span> </p>
+                    <p class="text-center">20 users included</p>
+                    <p class="text-center">10 GB of storage</p>
+                    <p class="text-center">Priority Email support</p>
+                    <p class="text-center">Help center access</p>
+                    <button class="btn btn-primary px-5">Get Started</button>    
+                </div>
+            </div>
+            <div class="card col-lg-4 pb-3">
+                <h5 class="card-header text-center bg-light">Enterprise</h5>
+                <div class="display-part mx-auto">
+                    <p class="display-5 text-center">$29<span class="text-secondary"> /mo</span> </p>
+                    <p class="text-center">30 users included</p>
+                    <p class="text-center">15 GB of storage</p>
+                    <p class="text-center">Phone and Email support</p>
+                    <p class="text-center">Help center access</p>
+                    <button class="btn btn-primary px-5">Contact Us</button>    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <a class="navbar-brand" href="#">
+                    <img src="Bootstrap_(front-end_framework)-Logo.wine.png" width="60" height="50" alt="">
+                </a>
+                <p><span>&copy;</span>2023</p>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-info">
+                <h4>Features</h4>
+                <p>Cool stuff</p>
+                <p>Random feature</p>
+                <p>Team feature</p>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-info">
+                <h4>Resource</h4>
+                <p>Resource</p>
+                <p>Resource name</p>
+                <p>Another resource</p>
+            </div>
+            <div class="col-md-3 col-sm-6 footer-info">
+                <h4>About</h4>
+                <p>Team</p>
+                <p>Locations</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
